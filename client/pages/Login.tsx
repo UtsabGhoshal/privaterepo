@@ -28,11 +28,11 @@ export default function Login() {
 
   const handleLogin = () => {
     setError("");
-    
+
     // Simple validation
     if (username.trim() === "tua" && password === "I Love Mimo") {
       // Successful login - redirect to home page
-      navigate("/");
+      navigate("/home");
     } else {
       setError("Invalid username or password");
     }
