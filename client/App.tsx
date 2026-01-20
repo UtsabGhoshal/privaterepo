@@ -8,6 +8,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SiteLayout from "@/components/layout/SiteLayout";
 import Index from "./pages/Index";
+import Login from "./pages/Login";
 import Memories from "./pages/Memories";
 import NotFound from "./pages/NotFound";
 
@@ -20,8 +21,9 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Login />} />
           <Route element={<SiteLayout />}>
-            <Route path="/" element={<Index />} />
+            <Route path="/home" element={<Index />} />
             <Route path="/memories" element={<Memories />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
