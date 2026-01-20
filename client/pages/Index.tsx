@@ -123,6 +123,34 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Acceptance Video */}
+      <section className="relative">
+        <div className="container pb-6 sm:pb-10 lg:pb-12">
+          <Reveal>
+            <div className="mx-auto max-w-4xl">
+              <div className="text-center mb-8">
+                <h2 className="font-display text-3xl font-bold mb-2">She said Yes!</h2>
+                <p className="text-lg text-muted-foreground">Our beautiful moment together</p>
+              </div>
+              <div className="overflow-hidden rounded-2xl border border-primary/20 bg-white/70 shadow-xl shadow-rose-500/10 backdrop-blur transition-transform duration-500 hover:scale-[1.01] dark:bg-background/60">
+                <AspectRatio ratio={16 / 9}>
+                  <video
+                  src="https://cdn.builder.io/o/assets%2F5d194e4113c94b9c9d4ca1e98e139060%2F849c4f183e4c4d68b60a713dc3bd061e?alt=media&token=3fcdcdbd-f5f4-4c9d-afd5-2ca05a15c0e4&apiKey=5d194e4113c94b9c9d4ca1e98e139060"
+                  className="h-full w-full object-cover"
+                  controls
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  aria-label="Our acceptance and proposal moment"
+                />
+                </AspectRatio>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* Reasons grid */}
       <section className="relative">
         <div className="container pb-16">
