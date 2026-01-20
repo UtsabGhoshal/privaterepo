@@ -49,7 +49,7 @@ export default function Index() {
             </Reveal>
             <Reveal delay={0.15}>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-                <a href="#letter">
+                <a href="/home#letter">
                   <Button size="lg" className="px-6">Read the letter</Button>
                 </a>
                 <a href="/memories">
