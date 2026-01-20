@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";
+import { getDatabase, Database } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -13,8 +13,16 @@ const firebaseConfig = {
   databaseURL: "https://ilovetua-4ecb0-default-rtdb.firebaseio.com",
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+let app;
+let database: Database | null = null;
 
-// Initialize Realtime Database
-export const database = getDatabase(app);
+try {
+  // Initialize Firebase
+  app = initializeApp(firebaseConfig);
+  // Initialize Realtime Database
+  database = getDatabase(app);
+} catch (error) {
+  console.error("Firebase initialization error:", error);
+}
+
+export { database };
