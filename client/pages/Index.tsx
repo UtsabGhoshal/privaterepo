@@ -95,20 +95,27 @@ export default function Index() {
                 </CardHeader>
               <CardContent className="space-y-4 text-lg leading-relaxed">
                 <p>
-                  Dear Tua, every day with you feels like discovering a new
-                  favorite song—familiar, warm, and somehow even more beautiful
-                  than before. You are my calm in chaos, my laughter on ordinary
-                  afternoons, and the reason I want to be the best version of
-                  myself.
+                  My dear,
                 </p>
                 <p>
-                  I love your kindness, the way your eyes light up when you
-                  smile, and how even silence with you feels like home. Thank
-                  you for loving me as I am. I promise to keep choosing you—in
-                  every sunrise, every storm, and all the soft, quiet moments in
-                  between.
+                  Aaj onek bhabhi ki likhbo, kibhabe shuru korbo. Shotti bolte, shob shobdo choto pore jay jokhon ami bujhi je ami tomake koto ta koshto diyechi. Ami jani, amar kono kotha ei moment-e tomar betha ta puro muche dite parbe na. Tobu ami chai tumi jano—ami nijer bhul bujhte perechi.
                 </p>
-                <p className="text-right font-medium">— Utsab</p>
+                <p>
+                  Ami tomake hurt korechi, eta ami deny korte chai na. Amar kotha, amar behavior, ba amar decision—kono ekta na, shob miliye ami tomake koshto diyechi. Sheta amar intention chilo na, kintu intention jai hok, result ta bhul chilo. Aar tar responsibility ami puro tai nicchi.
+                </p>
+                <p>
+                  Tumi amar jibone shudhu ekta manush na. Tumi amar shanti, amar bhorsha, amar sobcheye safe jayga. Aar shei manush-ke ami jokhon koshto dei, sheta amar nijer upor-e shobcheye beshi bojha hoye dariye thake. Protidin ei bhabna ta amake kheye felche je ami tomake kando-te dekhechi, aar ami tokhon tomar pashe thakte parni je bhabe thaka uchit chilo.
+                </p>
+                <p>
+                  Ami perfect na, ami bhul kori—kintu ami change korte chai. Shudhu kotha diye na, amar kaj diye. Jodi tumi ekta chance dao, ami proman kore debo je ami shikhte pari, ami better hote pari, aar ami tomake aar kokhono erokom bhabe hurt hote debo na.
+                </p>
+                <p>
+                  Ami tumi jodi ekhono ragiye thako, sheta ami bujhi. Tumi jodi time chao, sheta-o ami respect korbo. Ami shudhu etai chai—tumi jano je amar apology ta shudhu kotha na, eta amar mon theke asha.
+                </p>
+                <p>
+                  Please amake khoma koro. Hoyto aaj na, hoyto ekhon na—kintu jodi konodin tumi bhabo je ami ekhono tomar jonno important, tahole mone rekho ami ekhono tomake shei bhabei chai, shei bhabei respect kori.
+                </p>
+                <p className="text-right font-medium">Always yours,<br />Mimo</p>
               </CardContent>
               </Card>
             </Reveal>
