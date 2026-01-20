@@ -175,6 +175,9 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Message Box */}
+      <MessageBox />
+
       {/* Closing quote */}
       <section className="py-10">
         <div className="container">
