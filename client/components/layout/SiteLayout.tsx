@@ -15,7 +15,7 @@ export default function SiteLayout() {
             <span className="font-display text-xl tracking-tight">Utsab ♥ Tua</span>
           </Link>
           <nav className="flex items-center gap-1">
-            <NavItem to="/" label="Home" />
+            <NavItem to="/home" label="Home" />
             <NavItem to="/memories" label="Memories" />
           </nav>
         </div>
