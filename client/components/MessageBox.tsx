@@ -13,10 +13,16 @@ export default function MessageBox() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!message.trim()) {
       setStatus("error");
       setStatusMessage("Please write a message first");
+      return;
+    }
+
+    if (!database) {
+      setStatus("error");
+      setStatusMessage("Database connection unavailable. Please try again later.");
       return;
     }
 
@@ -26,7 +32,7 @@ export default function MessageBox() {
     try {
       // Create a reference to the messages collection
       const messagesRef = ref(database, "messages");
-      
+
       // Push a new message
       await push(messagesRef, {
         text: message.trim(),
@@ -39,7 +45,7 @@ export default function MessageBox() {
       setStatus("success");
       setStatusMessage("Message sent with love! 💕");
       setMessage("");
-      
+
       // Clear success message after 3 seconds
       setTimeout(() => setStatus("idle"), 3000);
     } catch (error) {
