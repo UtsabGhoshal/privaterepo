@@ -57,8 +57,12 @@ export default function Login() {
             <div className="flex justify-center mb-4">
               <Heart className="w-8 h-8 text-primary fill-primary" />
             </div>
-            <CardTitle className="text-2xl font-display">Welcome Back</CardTitle>
-            <p className="text-sm text-muted-foreground mt-2">Sign in to continue</p>
+            <CardTitle className="text-2xl font-display">
+              Welcome Back
+            </CardTitle>
+            <p className="text-sm text-muted-foreground mt-2">
+              Sign in to continue
+            </p>
           </CardHeader>
           <CardContent className="space-y-4">
             {/* Username */}
@@ -115,24 +119,26 @@ export default function Login() {
             {/* Error Message */}
             {error && (
               <div className="p-3 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-md">
-                <p className="text-sm text-red-700 dark:text-red-400">{error}</p>
+                <p className="text-sm text-red-700 dark:text-red-400">
+                  {error}
+                </p>
               </div>
             )}
 
             {/* Revealed Password */}
             {revealedPassword && (
               <div className="p-3 bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-800 rounded-md">
-                <p className="text-xs text-green-600 dark:text-green-400 mb-1">Your password:</p>
-                <p className="text-sm font-mono text-green-700 dark:text-green-300">{revealedPassword}</p>
+                <p className="text-xs text-green-600 dark:text-green-400 mb-1">
+                  Your password:
+                </p>
+                <p className="text-sm font-mono text-green-700 dark:text-green-300">
+                  {revealedPassword}
+                </p>
               </div>
             )}
 
             {/* Login Button */}
-            <Button
-              onClick={handleLogin}
-              className="w-full mt-6"
-              size="lg"
-            >
+            <Button onClick={handleLogin} className="w-full mt-6" size="lg">
               Login
             </Button>
 
@@ -151,16 +157,16 @@ export default function Login() {
             <CardContent className="pt-8 text-center space-y-6">
               <div>
                 <Heart className="w-12 h-12 text-primary fill-primary mx-auto mb-4 animate-pulse" />
-                <h2 className="text-2xl font-display font-bold mb-2">Do you love me?</h2>
-                <p className="text-muted-foreground">Answer honestly to reveal your password 💕</p>
+                <h2 className="text-2xl font-display font-bold mb-2">
+                  Do you love me?
+                </h2>
+                <p className="text-muted-foreground">
+                  Answer honestly to reveal your password 💕
+                </p>
               </div>
 
               <div className="flex gap-3 justify-center pt-4">
-                <Button
-                  onClick={handleLoveYes}
-                  className="px-8"
-                  size="lg"
-                >
+                <Button onClick={handleLoveYes} className="px-8" size="lg">
                   Yes ❤️
                 </Button>
                 <Button

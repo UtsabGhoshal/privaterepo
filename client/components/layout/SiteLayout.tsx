@@ -12,7 +12,9 @@ export default function SiteLayout() {
             <span className="inline-grid size-8 place-items-center rounded-full bg-primary/10 text-primary">
               <Heart className="size-4" />
             </span>
-            <span className="font-display text-xl tracking-tight">Utsab ♥ Tua</span>
+            <span className="font-display text-xl tracking-tight">
+              Utsab ♥ Tua
+            </span>
           </Link>
           <nav className="flex items-center gap-1">
             <NavItem to="/home" label="Home" />
@@ -27,8 +29,12 @@ export default function SiteLayout() {
 
       <footer className="border-t py-10">
         <div className="container flex flex-col items-center gap-3 text-center text-sm text-muted-foreground">
-          <p className="font-medium text-foreground">Made with love by Utsab for Tua</p>
-          <p>© {new Date().getFullYear()} Utsab ♥ Tua. All rights reserved.</p>
+          <p className="font-medium text-foreground">
+            Made with love by Utsab for Tua
+          </p>
+          <p>
+            © {new Date().getFullYear()} Utsab ♥ Tua. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
