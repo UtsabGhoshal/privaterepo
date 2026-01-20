@@ -69,7 +69,7 @@ export default function Index() {
             <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl border border-primary/20 bg-white/70 shadow-xl shadow-rose-500/10 backdrop-blur transition-transform duration-500 hover:scale-[1.01] dark:bg-background/60">
               <AspectRatio ratio={16 / 9}>
                 <video
-                src="https://cdn.builder.io/o/assets%2F28c7998f8c05479188e9c9c282137df4%2F65fc1f1afee841fe89ffda236e5d294c?alt=media&token=d2da477e-cb08-476a-8968-fd43a63a133a&apiKey=28c7998f8c05479188e9c9c282137df4"
+                src="https://cdn.builder.io/o/assets%2F5d194e4113c94b9c9d4ca1e98e139060%2F89a88b06fb90474ab6fd6a39c985b2f8?alt=media&token=419e113f-0412-42ae-a6b6-44e2eb9761eb&apiKey=5d194e4113c94b9c9d4ca1e98e139060"
                 className="h-full w-full object-cover"
                 controls
                 autoPlay
