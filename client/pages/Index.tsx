@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Reveal } from "@/components/motion/Reveal";
 import ReservationDialog from "@/components/ReservationDialog";
+import MessageBox from "@/components/MessageBox";
 
 export default function Index() {
   return (
